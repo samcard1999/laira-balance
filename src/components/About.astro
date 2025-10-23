@@ -1,0 +1,13 @@
+---
+import { Image } from "astro:assets";
+import AboutImage from "../assets/about/about.jpg";
+---
+
+<section class="h-screen w-full flex items-end pb-10 relative">
+  <Image
+    src={AboutImage}
+    alt="About Us"
+    class="object-contain lg:h-[80vh] lg:w-auto md:w-1/2 md:aspect-square w-fit -z-10"
+  />
+  <h2>Sobre Nosotros</h2>
+</section>
