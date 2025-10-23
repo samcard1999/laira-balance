@@ -3,7 +3,7 @@ import { Image } from "astro:assets";
 import AboutImage from "../assets/about/about.jpg";
 ---
 
-<section class="h-screen w-full flex items-end pb-10 relative gap-10">
+<section class="h-screen w-full flex items-end pb-10 pr-20 relative gap-10">
   <Image
     src={AboutImage}
     alt="About Us"
@@ -25,5 +25,13 @@ import AboutImage from "../assets/about/about.jpg";
       exclusiva de ropa deportiva y accesorios que complementan tu práctica con
       estilo y comodidad.
     </p>
+    <a href="/about" class="no-underline">Yoga</a>
+    <div class="w-full h-px bg-black"></div>
+    <a href="/about" class="no-underline">Barre</a>
+    <div class="w-full h-px bg-black"></div>
+    <a href="/about" class="no-underline">Pilates</a>
+    <div class="w-full h-px bg-black"></div>
+    <a href="/about" class="no-underline">Boutique Laira Brand</a>
+    <div class="w-full h-px bg-black"></div>
   </div>
 </section>
