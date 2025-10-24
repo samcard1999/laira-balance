@@ -1,15 +1,25 @@
 ---
 import { Image } from "astro:assets";
+import ClassesImage_sm from "../assets/classes-section/classes_sm.jpg";
 import ClassesImage from "../assets/classes-section/classes.jpg";
 ---
 
 <section id="classes" class="min-h-screen w-full flex flex-col relative">
   <Image
-    width={920}
+    height={1920}
+    width={1080}
+    quality={90}
+    src={ClassesImage_sm}
+    alt="Classes image of a woman taking a yoga class"
+    class="z-0 h-screen w-full object-cover md:hidden"
+  />
+  <Image
+    width={1920}
     height={1080}
+    quality={90}
     src={ClassesImage}
     alt="Classes image of a woman taking a yoga class"
-    class="z-0 h-screen object-cover"
+    class="z-0 h-screen w-full object-cover md:block hidden"
   />
   <div class="absolute bottom-16 right-10 flex flex-col gap-2 items-end">
     <h2 class="text-6xl text-secondary font-bold">Clases</h2>
