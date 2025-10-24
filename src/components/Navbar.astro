@@ -4,10 +4,10 @@ import { Image } from "astro:assets";
 
 <header
   id="navbar"
-  class="w-full h-20 px-10 py-4 grid grid-cols-3 fixed z-30 top-0 left-0 text-secondary text-lg"
+  class="w-full h-20 px-10 py-8 md:py-4 grid grid-cols-3 fixed z-30 top-0 left-0 text-secondary text-lg"
 >
   <div class="flex items-center gap-8 font-bold">
-    <a href="/"> Boutique </a>
+    <a href="/" class="md:block hidden"> Boutique </a>
     <a href="/"> Reservas </a>
   </div>
 
@@ -16,7 +16,7 @@ import { Image } from "astro:assets";
     data-name="Capa 2"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 95.2 102.55"
-    class="h-full w-auto justify-self-center"
+    class="h-12 md:h-full w-auto justify-self-center"
   >
     <g id="Capa_1-2" data-name="Capa 1">
       <g>
@@ -30,7 +30,7 @@ import { Image } from "astro:assets";
     </g>
   </svg>
   <div class="flex items-center justify-end gap-8 font-bold">
-    <div class="flex gap-2 justify-end items-center">
+    <div class="gap-2 justify-end items-center hidden md:flex">
       <a href="/en"> EN </a>
       <span class="font-thin">|</span>
       <a href="/es"> ES </a>

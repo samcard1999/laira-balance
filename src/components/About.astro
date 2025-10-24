@@ -1,14 +1,24 @@
 ---
 import { Image } from "astro:assets";
 import AboutImage from "../assets/about/about.jpg";
+import About_sm_Image from "../assets/about/about_sm.jpg";
 ---
 
-<section class="h-screen w-full flex items-end pb-10 pr-20 relative gap-10">
+<section
+  id="about"
+  class="min-h-screen w-full max-w-screen flex flex-col md:flex-row justify-center md:justify-normal md:items-end pb-10 md:pr-20 relative gap-10 pt-20 px-8 md:px-0"
+>
   <Image
     src={AboutImage}
     alt="About Us"
     quality={70}
-    class="object-contain lg:h-[80vh] lg:w-auto md:w-1/2 md:aspect-square w-fit"
+    class="object-contain lg:h-[80vh] lg:w-auto md:w-1/2 md:aspect-square w-fit hidden md:block"
+  />
+  <Image
+    src={About_sm_Image}
+    alt="About Us mobile"
+    quality={70}
+    class="object-cover w-full md:hidden"
   />
   <div class="prose lg:prose-xl prose-neutral">
     <h2>Sobre Nosotros</h2>
@@ -26,12 +36,12 @@ import AboutImage from "../assets/about/about.jpg";
       estilo y comodidad.
     </p>
     <a href="/about" class="no-underline">Yoga</a>
-    <div class="w-full h-px bg-black"></div>
+    <div class="w-full h-px bg-gray-700"></div>
     <a href="/about" class="no-underline">Barre</a>
-    <div class="w-full h-px bg-black"></div>
+    <div class="w-full h-px bg-gray-700"></div>
     <a href="/about" class="no-underline">Pilates</a>
-    <div class="w-full h-px bg-black"></div>
+    <div class="w-full h-px bg-gray-700"></div>
     <a href="/about" class="no-underline">Boutique Laira Brand</a>
-    <div class="w-full h-px bg-black"></div>
+    <div class="w-full h-px bg-gray-700"></div>
   </div>
 </section>

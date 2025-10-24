@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 107.53 107.53">
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g style="opacity: .5;">
+      <g>
+        <line x1="53.76" y1="84.39" x2="53.76" y2="20.76" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 4px;"/>
+        <polyline points="78.22 62.31 53.76 86.77 29.31 62.31" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 4px;"/>
+      </g>
+      <circle cx="53.76" cy="53.76" r="51.76" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    </g>
+  </g>
+</svg>
